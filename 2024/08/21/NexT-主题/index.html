@@ -19,25 +19,31 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":true,"sidebar":{"position":"right","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="会写bug的程序员">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Blog">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="该文章使用 Hexo 项目的 NexT 主题，该主题为 24-5-1 的最新版本 8.20.0，hexo 相关依赖版本请查看 package.json 文件 官方文档 Next">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NexT 主题">
+<meta property="og:url" content="http://example.com/2024/08/21/NexT-%E4%B8%BB%E9%A2%98/index.html">
 <meta property="og:site_name" content="Blog">
-<meta property="og:description" content="会写bug的程序员">
+<meta property="og:description" content="该文章使用 Hexo 项目的 NexT 主题，该主题为 24-5-1 的最新版本 8.20.0，hexo 相关依赖版本请查看 package.json 文件 官方文档 Next">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-08-21T10:14:18.000Z">
+<meta property="article:modified_time" content="2024-08-21T10:50:35.825Z">
 <meta property="article:author" content="Bug达人">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="next">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2024/08/21/NexT-%E4%B8%BB%E9%A2%98/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2024/08/21/NexT-%E4%B8%BB%E9%A2%98/","path":"2024/08/21/NexT-主题/","title":"NexT 主题"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Blog</title>
+<title>NexT 主题 | Blog</title>
   
 
 
@@ -70,7 +76,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Blog</h1>
+      <p class="site-title">Blog</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -96,7 +102,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -109,6 +115,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3"><span class="nav-number">1.</span> <span class="nav-text">官方文档</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NexT-%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">NexT 安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">3.</span> <span class="nav-text">主题配置文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">基础配置</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -145,16 +152,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/08/21/NexT-%E4%B8%BB%E9%A2%98/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -168,13 +176,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Blog">
+      <meta itemprop="name" content="NexT 主题 | Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/08/21/NexT-%E4%B8%BB%E9%A2%98/" class="post-title-link" itemprop="url">NexT 主题</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          NexT 主题
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -212,20 +220,32 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <p>该文章使用 Hexo 项目的 NexT 主题，该主题为 24-5-1 的最新版本 8.20.0，hexo 相关依赖版本请查看 <strong>package.json</strong> 文件</p>
+    <div class="post-body" itemprop="articleBody"><p>该文章使用 Hexo 项目的 NexT 主题，该主题为 24-5-1 的最新版本 8.20.0，hexo 相关依赖版本请查看 <strong>package.json</strong> 文件</p>
 <h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><ul>
 <li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9oZXhvLXRoZW1lLW5leHQ=">Next<i class="fa fa-external-link-alt"></i></span></li>
 </ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2024/08/21/NexT-%E4%B8%BB%E9%A2%98/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+<span id="more"></span>
+
+<h2 id="NexT-安装"><a href="#NexT-安装" class="headerlink" title="NexT 安装"></a>NexT 安装</h2><p>使用 npm 安装为最新的版本，需要指定版本及其他版本请参照 <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZC8jRG93bmxvYWRpbmctTmV4VA==">这个文档<i class="fa fa-external-link-alt"></i></span></p>
+<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>需进入到博客文件下执行上述命令</p>
+<h2 id="主题配置文件"><a href="#主题配置文件" class="headerlink" title="主题配置文件"></a>主题配置文件</h2><p>老的版本可能需要在原主题配置文件上更改，新版不推荐在原配置文件上更改主题配置文件</p>
+<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>将原主题配置文件复制一份放在站点目录下且命名为 _config.next.yml，后续更改 _config.next.yml 配置文件即可生效</p>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><p>_config.yml</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong></p>
+<ul>
+<li>zh-CN：为 next 主题里的翻译文件</li>
+<li>next：为主题</li>
+</ul>
+<p>_config.next.yml</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>Gemini 为主题的一个风格，具体可随风格喜好选择</p>
+<ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZA==">更多设置请参考官方文档<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+
     </div>
 
     
@@ -233,110 +253,28 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
+              <a href="/tags/next/" rel="tag"><i class="fa fa-tag"></i> next</a>
+              <a href="/tags/blog/" rel="tag"><i class="fa fa-tag"></i> blog</a>
+              <a href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag"><i class="fa fa-tag"></i> 博客</a>
+          </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/08/21/%E4%BD%BF%E7%94%A8-Hexo-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="Bug达人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-      <meta itemprop="description" content="会写bug的程序员">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/08/21/%E4%BD%BF%E7%94%A8-Hexo-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">使用 Hexo 快速搭建博客(Windows 篇)</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2024-08-21 15:18:48 / 修改时间：18:49:18" itemprop="dateCreated datePublished" datetime="2024-08-21T15:18:48+08:00">2024-08-21</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>399</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>如何使用 Hexo 快速搭建属于自己的博客</p>
-<h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNu">Hexo<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<h2 id="所需环境："><a href="#所需环境：" class="headerlink" title="所需环境："></a>所需环境：</h2><ul>
-<li><span class="exturl" data-url="aHR0cDovL25vZGVqcy5vcmcv">Node.js<i class="fa fa-external-link-alt"></i></span>(Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)</li>
-<li><span class="exturl" data-url="aHR0cDovL2dpdC1zY20uY29tLw==">Git<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2024/08/21/%E4%BD%BF%E7%94%A8-Hexo-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/08/21/%E4%BD%BF%E7%94%A8-Hexo-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" rel="prev" title="使用 Hexo 快速搭建博客(Windows 篇)">
+                  <i class="fa fa-angle-left"></i> 使用 Hexo 快速搭建博客(Windows 篇)
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
+
 
 
 
