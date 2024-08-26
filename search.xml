@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>NexT 主题</title>
+    <url>/2024/08/21/NexT-%E4%B8%BB%E9%A2%98/</url>
+    <content><![CDATA[<p>该文章使用 Hexo 项目的 NexT 主题，该主题为 24-5-1 的最新版本 8.20.0，hexo 相关依赖版本请查看 <strong>package.json</strong> 文件</p>
+<h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9oZXhvLXRoZW1lLW5leHQ=">Next<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<span id="more"></span>
+
+<h2 id="NexT-安装"><a href="#NexT-安装" class="headerlink" title="NexT 安装"></a>NexT 安装</h2><p>使用 npm 安装为最新的版本，需要指定版本及其他版本请参照 <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZC8jRG93bmxvYWRpbmctTmV4VA==">这个文档<i class="fa fa-external-link-alt"></i></span></p>
+<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>需进入到博客文件下执行上述命令</p>
+<h2 id="主题配置文件"><a href="#主题配置文件" class="headerlink" title="主题配置文件"></a>主题配置文件</h2><p>老的版本可能需要在原主题配置文件上更改，新版不推荐在原配置文件上更改主题配置文件</p>
+<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>将原主题配置文件复制一份放在站点目录下且命名为 _config.next.yml，后续更改 _config.next.yml 配置文件即可生效</p>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><p>_config.yml</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong></p>
+<ul>
+<li>zh-CN：为 next 主题里的翻译文件</li>
+<li>next：为主题</li>
+</ul>
+<p>_config.next.yml</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>Gemini 为主题的一个风格，具体可随风格喜好选择</p>
+<ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZA==">更多设置请参考官方文档<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>blog</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2024/08/21/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div></div></div>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>使用 Hexo 快速搭建博客(Windows 篇)</title>
+    <url>/2024/08/21/%E4%BD%BF%E7%94%A8-Hexo-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>如何使用 Hexo 快速搭建属于自己的博客</p>
+<h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNu">Hexo<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<h2 id="所需环境："><a href="#所需环境：" class="headerlink" title="所需环境："></a>所需环境：</h2><ul>
+<li><span class="exturl" data-url="aHR0cDovL25vZGVqcy5vcmcv">Node.js<i class="fa fa-external-link-alt"></i></span>(Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)</li>
+<li><span class="exturl" data-url="aHR0cDovL2dpdC1zY20uY29tLw==">Git<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<span id="more"></span>
+
+<p>本文章使用的环境版本<br><code>node.js v14.18.2</code><br><code>git v2.34.1.windows.1</code><br><code>hexo v7.3.0</code><br><code>hexo-cli v4.3.2</code></p>
+<h2 id="为什么用-Hexo"><a href="#为什么用-Hexo" class="headerlink" title="为什么用 Hexo"></a>为什么用 Hexo</h2><p>速度 <strong>快</strong>、<strong>简洁</strong> 且 <strong>高效</strong>，<strong>插件多</strong>，使用 <strong>MarkDown</strong> 语法</p>
+<h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>执行以下步骤默认已安装好了 <strong>node</strong>，<strong>git</strong></p>
+<figure class="highlight cmd"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>-g 全局安装</p>
+<h2 id="版本限制"><a href="#版本限制" class="headerlink" title="版本限制"></a>版本限制</h2><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3MvI05vZGUtanMtJUU3JTg5JTg4JUU2JTlDJUFDJUU5JTk5JTkwJUU1JTg4JUI2">这里查看<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<h2 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h2><p>在所需目录使用 <strong>git</strong> 打开</p>
+<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong></p>
+<ul>
+<li>&lt;folder&gt;：替换成自己所需的文件名</li>
+<li>hexo init &lt;folder&gt;：初始化博客文件夹</li>
+<li>cd &lt;folder&gt;：进入博客文件夹</li>
+<li>npm install：加载所需的依赖</li>
+</ul>
+<h2 id="博客文件夹目录"><a href="#博客文件夹目录" class="headerlink" title="博客文件夹目录"></a>博客文件夹目录</h2><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3Mvc2V0dXA=">详细说明<i class="fa fa-external-link-alt"></i></span><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── node_modules</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   └── _posts</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
+<strong>解释：</strong></li>
+<li>node_modules：插件目录</li>
+<li>scaffolds：模板文件夹</li>
+<li>source：资源文件夹</li>
+<li>_config.yml：站点配置文件</li>
+<li>package.json：引用程序的信息</li>
+<li>themes：主题文件夹</li>
+</ul>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3MvY29uZmlndXJhdGlvbg==">详细配置<i class="fa fa-external-link-alt"></i></span><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">网站标题</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">网站副标题</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">网站描述</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">名字</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">语言</span></span><br><span class="line"><span class="attr">default_layout:</span> <span class="string">预设布局</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">主题</span></span><br><span class="line"><span class="attr">deploy:</span> <span class="string">github</span> <span class="string">等部署</span></span><br></pre></td></tr></table></figure>
+<strong>解释：</strong>语言需要配合主题使用</li>
+</ul>
+<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><ul>
+<li><p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNuL2RvY3MvY29tbWFuZHM=">详细命令<i class="fa fa-external-link-alt"></i></span></p>
+<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo new &lt;title&gt;</span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong></p>
+</li>
+<li><p>hexo new &lt;title&gt;：使用默认布局创建帖子</p>
+</li>
+<li><p>hexo clean：清除缓存</p>
+</li>
+<li><p>hexo generate：生成 public 文件（静态文件）</p>
+</li>
+<li><p>hexo deploy：推送到 github 等仓库（需要配置 deploy）</p>
+</li>
+<li><p>hexo server：本地运行</p>
+</li>
+<li><p><span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL3poLWNu">更多设置请参考官方文档<i class="fa fa-external-link-alt"></i></span></p>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+</search>
