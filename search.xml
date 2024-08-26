@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>测试</title>
-    <url>/2024/08/21/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div></div></div>
+    <title>NexT 主题</title>
+    <url>/2024/08/21/NexT-%E4%B8%BB%E9%A2%98/</url>
+    <content><![CDATA[<p>该文章使用 Hexo 项目的 NexT 主题，该主题为 24-5-1 的最新版本 8.20.0，hexo 相关依赖版本请查看 <strong>package.json</strong> 文件</p>
+<h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9oZXhvLXRoZW1lLW5leHQ=">Next<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<span id="more"></span>
 
+<h2 id="NexT-安装"><a href="#NexT-安装" class="headerlink" title="NexT 安装"></a>NexT 安装</h2><p>使用 npm 安装为最新的版本，需要指定版本及其他版本请参照 <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZC8jRG93bmxvYWRpbmctTmV4VA==">这个文档<i class="fa fa-external-link-alt"></i></span></p>
+<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>需进入到博客文件下执行上述命令</p>
+<h2 id="主题配置文件"><a href="#主题配置文件" class="headerlink" title="主题配置文件"></a>主题配置文件</h2><p>老的版本可能需要在原主题配置文件上更改，新版不推荐在原配置文件上更改主题配置文件</p>
+<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>将原主题配置文件复制一份放在站点目录下且命名为 _config.next.yml，后续更改 _config.next.yml 配置文件即可生效</p>
+<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><p>_config.yml</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong></p>
+<ul>
+<li>zh-CN：为 next 主题里的翻译文件</li>
+<li>next：为主题</li>
+</ul>
+<p>_config.next.yml</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure>
+<p><strong>解释：</strong>Gemini 为主题的一个风格，具体可随风格喜好选择</p>
+<ul>
+<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZA==">更多设置请参考官方文档<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
 ]]></content>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+        <tag>blog</tag>
+        <tag>博客</tag>
+      </tags>
   </entry>
   <entry>
     <title>使用 Hexo 快速搭建博客(Windows 篇)</title>
@@ -77,39 +106,10 @@
       </tags>
   </entry>
   <entry>
-    <title>NexT 主题</title>
-    <url>/2024/08/21/NexT-%E4%B8%BB%E9%A2%98/</url>
-    <content><![CDATA[<p>该文章使用 Hexo 项目的 NexT 主题，该主题为 24-5-1 的最新版本 8.20.0，hexo 相关依赖版本请查看 <strong>package.json</strong> 文件</p>
-<h2 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h2><ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9oZXhvLXRoZW1lLW5leHQ=">Next<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<span id="more"></span>
+    <title>测试</title>
+    <url>/2024/08/21/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div><div class="group-picture-column"><img src="https://picui.cn/thumbnails/8d5e77af593bf3a87da7b559a184fa25.png"></div></div></div>
 
-<h2 id="NexT-安装"><a href="#NexT-安装" class="headerlink" title="NexT 安装"></a>NexT 安装</h2><p>使用 npm 安装为最新的版本，需要指定版本及其他版本请参照 <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZC8jRG93bmxvYWRpbmctTmV4VA==">这个文档<i class="fa fa-external-link-alt"></i></span></p>
-<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
-<p><strong>解释：</strong>需进入到博客文件下执行上述命令</p>
-<h2 id="主题配置文件"><a href="#主题配置文件" class="headerlink" title="主题配置文件"></a>主题配置文件</h2><p>老的版本可能需要在原主题配置文件上更改，新版不推荐在原配置文件上更改主题配置文件</p>
-<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>
-<p><strong>解释：</strong>将原主题配置文件复制一份放在站点目录下且命名为 _config.next.yml，后续更改 _config.next.yml 配置文件即可生效</p>
-<h2 id="基础配置"><a href="#基础配置" class="headerlink" title="基础配置"></a>基础配置</h2><p>_config.yml</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
-<p><strong>解释：</strong></p>
-<ul>
-<li>zh-CN：为 next 主题里的翻译文件</li>
-<li>next：为主题</li>
-</ul>
-<p>_config.next.yml</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">scheme:</span> <span class="string">Gemini</span></span><br></pre></td></tr></table></figure>
-<p><strong>解释：</strong>Gemini 为主题的一个风格，具体可随风格喜好选择</p>
-<ul>
-<li><span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL2dldHRpbmctc3RhcnRlZA==">更多设置请参考官方文档<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
 ]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>blog</tag>
-        <tag>博客</tag>
-        <tag>next</tag>
-      </tags>
   </entry>
 </search>
